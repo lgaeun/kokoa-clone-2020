@@ -13,3 +13,22 @@
   display: flex;
   justify-content: space-between;
 }
+.nav__btn {
+  position: relative;
+  font-weight: lighter;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
